@@ -18,6 +18,7 @@ function RenderLeader({ leader }) {
     );
 }
 
+
 function About(props) {
 
     const leaders = props.leaders.map((leader) => {
@@ -76,6 +77,7 @@ function About(props) {
                     </Card>
                 </div>
             </div>
+
 
             <div className="row row-content">
                 <div className="col-12">
